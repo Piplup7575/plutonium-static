@@ -30,6 +30,23 @@ say[22] = "who asked";
 say[23] = "no one asked";
 say[24] = "whoom inquired";
 say[25] = "do your homework!";
+say[26] = "Homework < Gaems";
+say[27] = "There's a teacher behind you!";
+say[28] = "sus";
+say[29] = "Who said I was doing my homework?";
+say[30] = "Remember to do your homework!";
+say[31] = "Use this proxy only for education! 🤓🤓🤓";
+say[32] = "Do not use this proxy for illegal activities!";
+say[33] = "gamering";
+say[34] = "Watch your back!";
+say[35] = "tax evasion is not a felony and you should do it";
+say[36] = "Don't do drugs - its too expensive";
+say[37] = "ladies if a man comes up to you and is nice just thank them, there is no need to ask “how did you get in my house” or “im calling the cops”";
+say[38] = "chi-na";
+say[39] = "yipii";
+say[40] = "😱";
+say[41] = "when the";
+say[42] = "heheheha";
 
 
 var howmany = say.length;
