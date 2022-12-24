@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+body {
+  background-color: #1b1b1e;
+  color: white;
+  font-family: Roboto;
+  margin: 0;
+}
+
+.enterbutton {
+  font-family: Roboto;
+  color:black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  border: 4px solid #4CAF50;
+  border-radius: 25px;
+}
+
+.enterbutton:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  position: fixed;     
+  bottom: 0px; 
+}
+
+.input {
+  background:white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+input:focus {
+  background-color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+::placeholder {
+	color: #4b5671;
+}
+
+a {
+  color: white;
+}
+
+.realPlutoImg {
+  box-shadow: 0px 0px 15px #A46BAC;
+  border-radius: 15px;
+  background: #A46BAC;
+}
+
+/* ---- reset ---- */
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1b1b1e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}

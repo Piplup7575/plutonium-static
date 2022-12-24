@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="./img/favo.ico" />
+  <title>Plutonium</title>
+  <link rel="stylesheet" href="css/index.css" /> 
+  
+  <script type="text/javascript">
+    function clicked() {
+      openInNewTab();
+	    window.location.replace('https://google.com');	  
+    }
+	  function openInNewTab() {
+        win = window.open();
+        win.document.body.style.margin = "0";
+        win.document.body.style.height = "100vh";
+        win.document.title = "Plutonium";
+        let link = win.document.createElement('link');
+        link.rel = 'icon';
+        win.document.getElementsByTagName('head')[0].appendChild(link);
+        link.href = '.img/favo.ico'
+        var iframe = win.document.createElement("iframe");
+        iframe.style.border = "none";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.margin = "0";
+        iframe.referrerpolicy = "no-referrer";
+        iframe.allow = "fullscreen";
+        iframe.src = window.location.href + "/main.html"
+        win.document.body.appendChild(iframe);
+	  }
+  </script>
+    <meta name="keywords" content="plutonium, isotopes, isotope, nuclear, " />
+    <meta property="og:title" content="Plutonium" />
+    <meta property="og:site_name" content="Plutonium" />
+    <meta property="og:description" content="Plutonium" />
+    <meta name="description" content="Plutonium" />
+    <meta name="author" content="Piplup7575" />
+</head>
+<body>
+  <div id="particles-js">
+    <div class="center">
+
+      <img style="width: 200px; height: 200px;" class="realPlutoImg" src="/img/realplutonium.png">
+      <h1>Plutonium</h1>
+      <p>Plutonium is the chemical element with the atomic number 94 and chemical symbol Pu. It is a highly radioactive metal, and is the metal used in most nuclear weapons. The chemical element plutonium has some different isotopes, sutch as 239Pu (or plutonium-239). It takes 24,000 years for a sample of plutonium-239 to decay, which is called its half-life. Plutonium-239 is commonly used to make nuclear weapons, and Pu-239 is a byproduct of nuclear reactor operations and nuclear bomb explosions.<br>
+Throughout its radioactive decay process, it generates a significant ammount of heat which makes it useful as a heat source for heating sensitive electrical components on satellites and powering said satellites. </p>
+      <button type="button" class="enterbutton" onclick="clicked()">Read More</button>
+    
+    </div>
+  </div>
+
+  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+  <script src='https://threejs.org/examples/js/libs/stats.min.js'></script>
+  <script src="js/particle.js"></script>
+</body>
+</html>
+
+
